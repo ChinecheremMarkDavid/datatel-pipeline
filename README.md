@@ -1,8 +1,14 @@
+
+
 # DataTel Telecom Data Pipeline
 
 An automated ELT pipeline that pulls raw, messy telecom data out of PostgreSQL,
 cleans and stages it, rolls it up into per-customer analytics, and publishes the
 result to BigQuery. Orchestrated with Apache Airflow on a daily schedule.
+
+
+See [DISCUSSION.md](DISCUSSION.md) for answers to the project discussion questions.
+
 
 ## What it does
 
